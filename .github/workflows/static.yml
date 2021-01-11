@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -31,9 +31,9 @@ jobs:
           npm ci
           npm run build
       - name: Git Commit/Push Changes
-        
+
       # Commit
-      - uses: actions-x/commit@v2
+      # - uses: actions-x/commit@v2
 #         with:
           # The committer's email address
 #           email: # default is ${{ github.actor }}@localhost
