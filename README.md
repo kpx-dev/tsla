@@ -1,4 +1,4 @@
 # tsla
 TSLA options play
 
-![ui-build](https://github.com/kpx-dev/tsla/workflows/Build%20static%20site/badge.svg)
+![ui-deploy](https://github.com/kpx-dev/tsla/workflows/ui-deploy/badge.svg)
