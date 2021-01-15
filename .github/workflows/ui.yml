@@ -15,5 +15,5 @@ jobs:
           cd ui
           npm ci
           npm run build
-          cp CNAME docs/CNAME
+          cp ../CNAME ../docs/CNAME
       - uses: actions-x/commit@v2
