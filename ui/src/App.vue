@@ -1,5 +1,5 @@
 <template>
-  <Calculator msg="TSLA"/>
+  <Calculator ticker="TSLA"/>
 </template>
 
 <script>
